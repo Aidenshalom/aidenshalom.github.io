@@ -108,7 +108,7 @@ a {
     width: 100%;
     padding-left: 20px;
     z-index: 999;
-    top: 60px;
+    top: 80px;
     left: 0;
     background-color: #000000;
     border-bottom: 1px solid rgba(236, 234, 234, 0.5);
@@ -1240,11 +1240,27 @@ a {
     }
 }
 
-@media (max-width:450px) {
+@media (max-width:520px) {
     
     .contact .contact-container  {
-        margin-left: 20px;
+        margin-left: 10px;
         margin-right: 20px;
+    }
+}
+
+@media (max-width:450px) {
+    .contact .contact-title {
+        font-size: 18px;
+    }
+
+    .contact .contact-container .contact-content {
+        padding-left: 10px;
+        padding-right: 30px;
+    }
+
+    .contact .contact-container .contact-form {
+        padding-left: 10px;
+        padding-right: 30px;
     }
 
     .contact .contact-container .contact-content h3 {
