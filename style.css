@@ -180,7 +180,7 @@ a {
     width: 400px;
     height: 400px;
     border-radius: 100%;
-    background: url('img3.jpg') no-repeat center center;
+    background: url('file.svg') no-repeat center center;
 }
 
 .aiden {
@@ -1313,3 +1313,4 @@ a {
 }
 
 /* /Footer SEction */
+
